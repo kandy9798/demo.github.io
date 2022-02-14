@@ -1,0 +1,171 @@
+/*
+Theme Name: Building Construction Lite
+Theme URI: https://www.ovationthemes.com/wordpress/free-building-wordpress-theme/
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: Building Construction Lite is a responsive, versatile and modern WordPress theme ideal to create websites for construction, painting, plumbing, renovation, architecture, building company, electrician, flooring, roofing, interior design, manufacture plants, road building and more. It offers many customization options as well as features. Moreover, it offers advance options like customizable quote calculator, three different tile / grid blog layouts, unlimited project portfolio layouts based on grid pattern, page transitions and distinctive typography. It includes easy to work and fast page builder. It adapts well to every device, from smartphones and tablets to desktops. It comes with full support by our dedicated team and free updates. You will find this theme packed with carefully tailored features. You can add custom codes and it is compatible with major WordPress plugins like Elementor, Contact form 7 and many more. Your construction and building company website will be ready quickly and running in minutes.
+Version: 0.1
+Requires PHP: 7.2
+Tested up to: 5.8
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: building-construction-lite
+Template: construction-firm
+Tags: wide-blocks, block-styles, two-columns, right-sidebar, left-sidebar, grid-layout, custom-colors, custom-background, custom-header, custom-menu, custom-logo, sticky-post, full-width-template, editor-style, featured-images, footer-widgets, threaded-comments, blog, portfolio, photography
+
+Building Construction Lite WordPress Theme, Copyright 2022 pewilliams
+Building Construction Lite is distributed under the terms of the GNU GPL
+
+Building Construction Lite WordPress Theme is child theme of Construction Firm WordPress Theme, Copyright 2022 pewilliams
+Construction Firm WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+span.entry-author a,.comment-author a,.product_meta a,.widget_text a,.comment-content p a {
+    text-decoration: underline;
+}
+
+body,.gb_nav_menu li a,.info-box p{
+    color: #787878;
+}
+
+.top_bar,.logo,a.more-link,.gb_nav_menu ul ul,button, input[type="button"], input[type="submit"],.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.home-btn a, .box-button a,#slider .carousel-control-next-icon:hover, #slider .carousel-control-prev-icon:hover,.inner-box,.img-box,.box ul li,#sidebar .tagcloud a:hover, .site-footer .tagcloud a:hover,.prev.page-numbers, .next.page-numbers,.page-numbers.current,button.search-submit,.site-footer .search-form .search-submit{
+    background: #f7a238;
+}
+a,#Category-section .postbox.smallpostimage:hover h3 a, .top_header strong,.home-btn a:hover,#projects-box h3,.info-box i,#sidebar th,#sidebar td,#sidebar caption,#sidebar select,.site-footer .widget-area a:hover,a:hover, a:active{
+    color: #f7a238;
+}
+.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price{
+    color: #f7a238 !important;
+}
+.wp-block-quote:not(.is-large):not(.is-style-large), blockquote,#slider .carousel-control-prev-icon,#slider .carousel-control-next-icon{
+    border-color: #f7a238;
+}
+
+#slider .carousel-control-next-icon, #slider .carousel-control-prev-icon,.copyright,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+    background: #1d1d1d;
+}
+h1,h2,h3,h4,h5,h6,.home-btn a, .box-button a,.carousel-control-prev:focus, .carousel-control-prev:hover, .carousel-control-next:focus, .carousel-control-next:hover,.inner-box h4 a,.inner-box p,.box ul li a,#sidebar .tagcloud a:hover, .site-footer .tagcloud a:hover,#sidebar h3,#Category-section h3 a,a.more-link,a.more-link:hover,.prev.page-numbers, .next.page-numbers,.page-numbers.current,#sidebar .tagcloud a, .site-footer .tagcloud a,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,button, input[type="button"], input[type="submit"],.logo h1, .site-title, .site-title a,.logo p,.links i, .links span, .top_bar p,.logo h1 a{
+    color: #1d1d1d;
+}
+.inner-box hr,#sidebar h3{
+    border-color: #1d1d1d;
+}
+
+.site-info{
+    background: #101010;
+}
+
+.info-box i,.preloader{
+    background: #fff2e2;
+}
+
+.load :first-child{background:#f7a238;animation-delay:-1.5s}
+.load :nth-child(2){background:#f7a238;animation-delay:-1s}
+.load :nth-child(3){background:#f7a238;animation-delay:-0.5s}
+.load :last-child{background:#f7a238}
+
+.gb_nav_menu ul ul a:hover{
+    background: #fff;
+    color: #f7a238 !important;
+}
+
+.logo {
+    position: static;
+    padding: 13px 0;
+}
+
+.img-box img{
+    width: 100%;
+}
+#about-us h4 {
+    font-size: 40px;
+}
+#about-us h3 {
+    background: #f7a238;
+    display: inline-block;
+    padding: 15px;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+#about-us .link-more {
+    text-align: left !important;
+}
+a.more-link {
+    font-size: 12px;
+    border-radius: 0;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+/* Default*/
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+    border: 1px solid #323232;
+    padding: 2px;
+}
+
+/* Accessibility */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+@media screen and (max-width: 425px){
+    .menu_header {
+        background: #f7a238;
+    }
+}
+@media screen and (max-width: 800px){
+    .toggle-menu button {
+        background: #1d1d1d;
+        color: #fff;
+        margin: 0 !important;
+    }
+    .toggle-menu.gb_menu{
+        text-align: left !important;
+    }
+    .logo{
+        text-align: center;
+    }
+    .gb_nav_menu ul ul{
+        background: transparent;
+    }
+}
